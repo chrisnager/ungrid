@@ -71,11 +71,11 @@ hr {
     height: 4em;
     vertical-align: middle;
     line-height: 4em;
-    background-color: gold;
+    background-color: darkcyan;
 }
 
 .col:nth-of-type(2n) {
-    background: goldenrod;
+    background: teal;
 }
 
 .footer {
