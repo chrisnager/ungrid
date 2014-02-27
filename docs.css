@@ -25,12 +25,11 @@ h1 {
 }
 
 h2 {
-    font-weight: normal;
     font-size: 20px;
 }
 
 pre {
-    border: 4px solid;
+    border: 2px solid;
     padding: 1em;
     white-space: pre-wrap;
     font-size: 13px;
