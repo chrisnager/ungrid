@@ -52,9 +52,9 @@ hr {
 }
 
 .info {
-    padding: 0.75em 1em 0.5em;
+    padding: 2em 1em;
     overflow: hidden;
-    background-color: #f4f4f4;
+    background-color: #f2f2f2;
 }
 
 .info__inner {
