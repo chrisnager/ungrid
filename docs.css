@@ -1,5 +1,6 @@
 html {
-    font: 18px sans-serif;
+    font: 24px sans-serif;
+    text-align: center;
 }
 
 body {
@@ -11,10 +12,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.075);
     vertical-align: middle;
     line-height: 4rem;
-    text-align: center;
     background-color: gold;
 }
 
-.col:nth-of-type(2n) {
+.col:nth-of-type(2n),
+.row:nth-of-type(2n) > .col:nth-of-type(2n+1) {
     background: goldenrod;
 }
