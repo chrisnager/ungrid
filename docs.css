@@ -1,10 +1,24 @@
 html {
     font: 24px sans-serif;
     text-align: center;
+    color: #222
 }
 
 body {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+header {
+    padding: 3em 1em;
+}
+
+footer {
+    padding: 1.5em;
 }
 
 .col {
@@ -15,7 +29,6 @@ body {
     background-color: gold;
 }
 
-.col:nth-of-type(2n),
-.row:nth-of-type(2n) > .col:nth-of-type(2n+1) {
+.col:nth-of-type(2n) {
     background: goldenrod;
 }
