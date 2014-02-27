@@ -1,0 +1,12 @@
+.col {
+    height: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    vertical-align: middle;
+    line-height: 4rem;
+    text-align: center;
+    background-color: gold;
+}
+
+.col:nth-of-type(2n) {
+    background: goldenrod;
+}
