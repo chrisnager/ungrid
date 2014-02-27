@@ -37,7 +37,7 @@ pre {
 }
 
 .row {
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .col {
@@ -52,5 +52,5 @@ pre {
 }
 
 .footer {
-    padding: 1.5em 1em 2.5em;
+    padding: 1.5em;
 }
