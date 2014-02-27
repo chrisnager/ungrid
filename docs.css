@@ -13,12 +13,16 @@ a {
     color: teal;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 pre {
     margin: 1em;
-    border: 2px solid goldenrod;
+    border: 4px solid;
     padding: 1em;
     white-space: pre-wrap;
-    font-size: 14px;
+    font-size: 13px;
     text-align: left;
     background-color: white;
 }
@@ -28,7 +32,7 @@ pre {
 }
 
 .ungrid-css {
-    background-color: #f8f8f8;
+    background-color: #f4f4f4;
 }
 
 .col {
