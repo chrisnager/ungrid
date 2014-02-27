@@ -18,17 +18,17 @@ pre {
     border: 2px solid goldenrod;
     padding: 1em;
     white-space: pre-wrap;
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
-    background-color: #f8f8f8;
+    background-color: white;
 }
 
-header {
+.header {
     padding: 3em 1em;
 }
 
-footer {
-    padding: 1.5em;
+.ungrid-css {
+    background-color: #f8f8f8;
 }
 
 .col {
@@ -41,4 +41,8 @@ footer {
 
 .col:nth-of-type(2n) {
     background: goldenrod;
+}
+
+.footer {
+    padding: 1.5em;
 }
