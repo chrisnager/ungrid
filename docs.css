@@ -30,11 +30,12 @@ pre {
     padding: 1em;
     white-space: pre-wrap;
     font-size: 0.54167em;
+    text-align: left;
     background-color: white;
 }
 
 hr {
-    max-width: 5em;
+    max-width: 20em;
     margin: 2em auto;
     border: solid #ddd;
     border-width: 1px 0 0;
@@ -53,7 +54,6 @@ hr {
 .info {
     padding: 0.75em 1em 0.5em;
     overflow: hidden;
-    text-align: left;
     background-color: #f4f4f4;
 }
 
