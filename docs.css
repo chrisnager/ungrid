@@ -25,14 +25,14 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 0.83333%;
 }
 
 pre {
     border: 2px solid;
     padding: 1em;
     white-space: pre-wrap;
-    font-size: 13px;
+    font-size: 0.54167%;
     background-color: white;
 }
 
