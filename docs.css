@@ -13,6 +13,17 @@ a {
     color: teal;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 70%;
+}
+
+h1 {
+    margin-bottom: 0.1em;
+    letter-spacing: 0.05em;
+}
+
 h2 {
     font-weight: normal;
     font-size: 20px;
