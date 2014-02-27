@@ -8,16 +8,18 @@
     </head>
     <body>
 
-        <header>
+        <header class="header">
             <h1>ungrid</h1>
             <p>the simplest css grid</p>
         </header>
 
-        <h2>this is the entire ungrid css file:</h2>
-        <pre><code>@media (min-width: 30em) {
+        <div class="ungrid-css">
+            <h2>this is the entire ungrid css file:</h2>
+            <pre><code>@media (min-width: 30em) {
     .row { width: 100%; display: table; table-layout: fixed; }
     .col { display: table-cell; }
 }</code></pre>
+        </div>
 
         <div class="row">
             <div class="col">&#9884;</div>
@@ -187,7 +189,7 @@
             <div class="col">&#9884;</div>
         </div>
         
-        <footer>
+        <footer class="footer">
             <p>ungrid on <a href="//github.com/chrisnager/ungrid">github</a> &middot; crafted by <a href="//twitter.com/chrisnager">@chrisnager</a></p>
         </footer>
     </body>
