@@ -1,3 +1,5 @@
+![ungrid logo](apple-touch-icon-precomposed.png, "ungrid logo")
+
 # ungrid
 
 the simplest responsive css grid
