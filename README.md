@@ -6,7 +6,7 @@ the simplest responsive css grid
 
 ---
 
-ungrid is a responsive, (`display:`)`table`-based css grid system. the entire `ungrid.css` file is 97 bytes minified.
+ungrid is a responsive, table-based css grid system. the entire `ungrid.css` file is 97 bytes minified.
 
 ```css
 @media (min-width: 30em) {
