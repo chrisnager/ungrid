@@ -36,9 +36,12 @@ pre {
     background-color: #f4f4f4;
 }
 
+.row {
+    margin-bottom: 1em;
+}
+
 .col {
     height: 4em;
-    border: 1px solid rgba(0, 0, 0, 0.075);
     vertical-align: middle;
     line-height: 4em;
     background-color: gold;
@@ -49,5 +52,5 @@ pre {
 }
 
 .footer {
-    padding: 1.5em;
+    padding: 1.5em 1em 2.5em;
 }
