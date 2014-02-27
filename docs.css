@@ -1,3 +1,11 @@
+html {
+    font: 18px sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
 .col {
     height: 4rem;
     border: 1px solid rgba(0, 0, 0, 0.075);
