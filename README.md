@@ -1,4 +1,4 @@
-![ungrid logo](apple-touch-icon-precomposed.png, "ungrid logo")
+![ungrid logo](apple-touch-icon-precomposed.png "ungrid logo")
 
 # ungrid
 
