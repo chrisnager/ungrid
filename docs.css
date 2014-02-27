@@ -1,5 +1,5 @@
 html {
-    font: 24px sans-serif;
+    font: 24px/1.7 sans-serif;
     text-align: center;
     color: #222
 }
@@ -14,8 +14,6 @@ a {
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 70%;
 }
 
@@ -40,7 +38,12 @@ pre {
     padding: 3em 1em;
 }
 
-.ungrid-css {
+.header > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info {
     padding: 0.75em 1em 0.5em;
     overflow: hidden;
     text-align: left;
