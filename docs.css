@@ -14,8 +14,11 @@ a {
 }
 
 pre {
+    margin: 1em;
     border: 2px solid goldenrod;
     padding: 1em;
+    white-space: pre-wrap;
+    font-size: 18px;
     background-color: #f8f8f8;
 }
 
@@ -28,10 +31,10 @@ footer {
 }
 
 .col {
-    height: 4rem;
+    height: 4em;
     border: 1px solid rgba(0, 0, 0, 0.075);
     vertical-align: middle;
-    line-height: 4rem;
+    line-height: 4em;
     background-color: gold;
 }
 
