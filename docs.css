@@ -23,7 +23,6 @@ pre {
     padding: 1em;
     white-space: pre-wrap;
     font-size: 13px;
-    text-align: left;
     background-color: white;
 }
 
@@ -33,6 +32,7 @@ pre {
 
 .ungrid-css {
     overflow: hidden;
+    text-align: left;
     background-color: #f4f4f4;
 }
 
