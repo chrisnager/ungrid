@@ -13,17 +13,16 @@ a {
     color: teal;
 }
 
-p {
-    font-size: 70%;
-}
-
 h1 {
-    margin-bottom: 0.1em;
     letter-spacing: -0.05em;
 }
 
 h2 {
     font-size: 0.83333em;
+}
+
+p {
+    font-size: 0.7em;
 }
 
 pre {
@@ -34,10 +33,18 @@ pre {
     background-color: white;
 }
 
+hr {
+    max-width: 5em;
+    margin: 2em auto;
+    border: solid #ddd;
+    border-width: 1px 0 0;
+}
+
 .header {
     padding: 3em 1em;
 }
 
+.header > h1,
 .header > p {
     margin-top: 0;
     margin-bottom: 0;
@@ -48,6 +55,12 @@ pre {
     overflow: hidden;
     text-align: left;
     background-color: #f4f4f4;
+}
+
+.info__inner {
+    max-width: 30em;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .row {
