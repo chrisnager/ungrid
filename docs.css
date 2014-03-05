@@ -65,6 +65,13 @@ hr {
 
 .row {
     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 479px) {
+    .col {
+        width: 100% !important;
+    }
 }
 
 .col {
@@ -79,5 +86,5 @@ hr {
 }
 
 .footer {
-    padding: 1.5em;
+    padding: 0.5rem 1rem 1.5em;
 }
