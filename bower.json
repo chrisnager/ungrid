@@ -1,16 +1,14 @@
 {
     "name": "ungrid",
+    "description": "The simplest responsive css grid.",
     "version": "1.0.0",
     "homepage": "http://chrisnager.github.io/ungrid/",
-    "authors": [
-        "@chrisnager <chris@chrisnager.com>"
-    ],
-    "description": "The simplest responsive css grid.",
+    "authors": "@chrisnager <http://twitter.com/chrisnager>",
     "keywords": [
         "ungrid",
-        "web",
         "css",
         "grid",
+        "grid system",
         "simple",
         "simplest",
         "responsive",
@@ -19,12 +17,13 @@
         "table-based",
         "framework"
     ],
-    "license": "MIT",
+    "main": "ungrid.css",
     "ignore": [
         "index.html",
         "docs.css",
         "ungrid-screenshot.png",
         "favicon.ico",
         "favicon.png"
-    ]
+    ],
+    "license": "MIT"
 }
