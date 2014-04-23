@@ -19,6 +19,11 @@ The entire `ungrid.css` file is 97 bytes minified.
 
 ![ungrid grid system](ungrid-screenshot.png "ungrid grid system")
 
+## Install with [Bower](//bower.io)
+
+`bower install ungrid`
+
+
 # License
 
 The MIT License (MIT)
