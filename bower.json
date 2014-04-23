@@ -1,7 +1,7 @@
 {
     "name": "ungrid",
     "description": "The simplest responsive css grid.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "homepage": "http://chrisnager.github.io/ungrid/",
     "authors": "Chris Nager <@chrisnager>",
     "keywords": [
