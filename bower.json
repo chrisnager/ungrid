@@ -14,7 +14,10 @@
         "simple",
         "simplest",
         "responsive",
-        "framework
+        "tiny",
+        "small",
+        "table-based",
+        "framework"
     ],
     "license": "MIT",
     "ignore": [
