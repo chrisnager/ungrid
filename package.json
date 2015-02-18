@@ -1,6 +1,6 @@
 {
   "name": "ungrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the simplest responsive css grid",
   "main": "ungrid.css",
   "scripts": {
