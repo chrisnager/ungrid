@@ -1,0 +1,27 @@
+{
+  "name": "ungrid",
+  "version": "1.0.0",
+  "description": "the simplest responsive css grid",
+  "main": "ungrid.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisnager/ungrid.git"
+  },
+  "keywords": [
+    "ungrid",
+    "grid",
+    "responsive",
+    "simple",
+    "css",
+    "simplest"
+  ],
+  "author": "Chris Nager <cnager@gmail.com> (http://chrisnager.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisnager/ungrid/issues"
+  },
+  "homepage": "https://github.com/chrisnager/ungrid"
+}
