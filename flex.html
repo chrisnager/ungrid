@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=640">
         <title>ungrid - the simplest responsive css grid</title>
-        <link href="ungrid.min.css" rel="stylesheet">
+        <link href="ungrid-flex.min.css" rel="stylesheet">
         <link href="docs.css" rel="stylesheet">
     </head>
     <body>
@@ -13,7 +13,7 @@
             <h1><a href="//github.com/chrisnager/ungrid">ungrid</a></h1>
             <p>by <a href="//twitter.com/chrisnager">@chrisnager</a></p>
             <h2>the simplest responsive css grid</h2>
-            <p>Ready for the latest in CSS ? Check the <a href="flex.html">flex flavor</a> !</p>
+            <p>Not ready for the latest in CSS ? Check the <a href="./">table-based flavor</a>.</p>
         </div>
 
         <div class="info">
@@ -23,8 +23,8 @@
                 <hr>
                 <p>ungrid.css (97 bytes minified):</p>
                 <pre><code>@media (min-width: 30em) {
-    .row { width: 100%; display: table; table-layout: fixed; }
-    .col { display: table-cell; }
+    .row { display: flex;flex-wrap: nowrap;  }
+    .col { flex: 1; }
 }</code></pre>
             </div>
         </div>
@@ -129,35 +129,39 @@
          <div class="info">
             <div class="info__inner">
                 <h2>Need specific column widths?</h2>
-                <p>Go for it. Both fixed and percentage base widths work perfectly. You can even use them together. The remaining columns will take up the rest of the available space.</p>
+                <p>Flex is also ready for that, use flex-basis property with the shorthand :<br /><small>(flex-grow needs to be forced to 0)</small></p>
+                <pre><code>flex: 0 [WIDTH];
+flex: 0 15%;
+flex: 0 400px;</code></pre>
+                <p>Both fixed and percentage base widths work perfectly. You can even use them together. The remaining columns will take up the rest of the available space.</p>
             </div>
         </div>
 
        <div class="row">
-            <div class="col" style="width:80%">80%</div>
+            <div class="col" style="flex: 0 80%">80%</div>
             <div class="col">&#9884;</div>
         </div>
 
        <div class="row">
-            <div class="col" style="width:40%">40%</div>
-            <div class="col" style="width:20%">20%</div>
-            <div class="col" style="width:40%">40%</div>
+            <div class="col" style="flex: 0 40%">40%</div>
+            <div class="col" style="flex: 0 20%">20%</div>
+            <div class="col" style="flex: 0 40%">40%</div>
         </div>
 
         <div class="row">
             <div class="col">&#9884;</div>
-            <div class="col" style="width:425px">425px</div>
+            <div class="col" style="flex: 0 425px">425px</div>
         </div>
 
         <div class="row">
-            <div class="col" style="width:15%">15%</div>
-            <div class="col" style="width:200px">200px</div>
+            <div class="col" style="flex: 0 15%">15%</div>
+            <div class="col" style="flex: 0 200px">200px</div>
             <div class="col">&#9884;</div>
-            <div class="col" style="width:25%">25%</div>
+            <div class="col" style="flex: 0 25%">25%</div>
         </div>
 
         <div class="footer">
-            <p><b>ungrid</b> on <a href="//github.com/chrisnager/ungrid">github</a> &middot; crafted by <a href="//twitter.com/chrisnager">@chrisnager</a> &middot; try it out on <a href="//codepen.io/chrisnager/pen/ypokv">codepen</a></p>
+            <p><b>ungrid</b> on <a href="//github.com/chrisnager/ungrid">github</a> &middot; crafted by <a href="//twitter.com/chrisnager">@chrisnager</a> &middot; try it out on <a href="//codepen.io/sherbrow/pen/pJRBZx">codepen</a></p>
         </div>
 
         <script>
