@@ -17,12 +17,12 @@ __ungrid__ is a tiny, responsive, table-based CSS grid system. The entire `ungri
 }
 ```
 
-The flex flavored version `ungrid-flex.css` is 71 bytes minified (137 bytes with prefixes, see [Can I Use Flex](http://caniuse.com/#search=flex)) :
+The flex flavored version `ungrid-flex.css` is 76 bytes minified (142 bytes with prefixes, see [Can I Use Flex](http://caniuse.com/#search=flex)) :
 
 ```css
 @media (min-width: 30em) {
     .row { display: flex; flex-wrap: nowrap; }
-    .col { flex: 1; }
+    .col { flex-grow: 1; }
 }
 ```
 

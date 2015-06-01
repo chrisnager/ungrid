@@ -3,5 +3,5 @@
         display: -webkit-flex; -webkit-flex-wrap: nowrap;
         display: flex; flex-wrap: nowrap;
     }
-    .col { -webkit-flex-grow: 1; flex: 1; }
+    .col { -webkit-flex-grow: 1; flex-grow: 1; }
 }
