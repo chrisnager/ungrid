@@ -17,6 +17,15 @@ __ungrid__ is a tiny, responsive, table-based CSS grid system. The entire `ungri
 }
 ```
 
+The flex flavored version `ungrid-flex.css` is 71 bytes minified (137 bytes with prefixes, see [Can I Use Flex](http://caniuse.com/#search=flex)) :
+
+```css
+@media (min-width: 30em) {
+    .row { display: flex;flex-wrap: nowrap;  }
+    .col { flex: 1; }
+}
+```
+
 
 
 ## Get started
@@ -27,7 +36,7 @@ Install with [Bower](http://bower.io) `bower install ungrid` or just copy and pa
 
 ## How to use
 
-To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](http://codepen.io/chrisnager/pen/ypokv).
+To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](http://codepen.io/chrisnager/pen/ypokv) ([flex in action](http://codepen.io/sherbrow/pen/pJRBZx)).
 
 ```html
 <div class="row">
