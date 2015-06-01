@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=640">
         <title>ungrid - the simplest responsive css grid</title>
-        <link href="ungrid-flex.min.css" rel="stylesheet">
+        <link href="ungrid-flex-prefix.min.css" rel="stylesheet">
         <link href="docs.css" rel="stylesheet">
     </head>
     <body>
@@ -21,9 +21,9 @@
                 <p><b>ungrid</b> is a responsive, table-based CSS grid system. To use, simply put as many <code>.col</code>s as you wish in your <code>.row</code>s and the <code>.col</code>s will automatically be evenly spaced. This allows you to roll your own simple grids.</p>
                 <p><iframe src="http://ghbtns.com/github-btn.html?user=chrisnager&amp;repo=ungrid&amp;type=watch&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="77px" height="30px"></iframe></p>
                 <hr>
-                <p>ungrid.css (97 bytes minified):</p>
+                <p>ungrid-flex.css (71 bytes minified):</p>
                 <pre><code>@media (min-width: 30em) {
-    .row { display: flex;flex-wrap: nowrap;  }
+    .row { display: flex; flex-wrap: nowrap; }
     .col { flex: 1; }
 }</code></pre>
             </div>

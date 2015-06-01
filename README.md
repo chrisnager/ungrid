@@ -21,7 +21,7 @@ The flex flavored version `ungrid-flex.css` is 71 bytes minified (137 bytes with
 
 ```css
 @media (min-width: 30em) {
-    .row { display: flex;flex-wrap: nowrap;  }
+    .row { display: flex; flex-wrap: nowrap; }
     .col { flex: 1; }
 }
 ```
