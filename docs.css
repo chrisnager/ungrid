@@ -73,6 +73,12 @@ hr {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+.row.col {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
 
 @media (max-width: 479px) {
     .col {
@@ -85,6 +91,10 @@ hr {
     vertical-align: middle;
     line-height: 4em;
     background-color: teal;
+}
+.row.col .col {
+    height: 3em;
+    line-height: 3em;
 }
 
 .col:nth-of-type(2n) {

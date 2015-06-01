@@ -128,8 +128,46 @@
 
          <div class="info">
             <div class="info__inner">
+                <h2>Nesting is super easy !</h2>
+                <p>A <code>.col</code> can be a <code>.row</code>, and that's all.</p>
+                <pre><code>&lt;div class="row"&gt;
+    &lt;div class="col"&gt;&lt;/div&gt;
+    &lt;div class="col row"&gt;
+        &lt;div class="col"&gt;&lt;/div&gt;
+        &lt;div class="col"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">&#9884;</div>
+            <div class="col row">
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col row">
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+            </div>
+            <div class="col row">
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+                <div class="col">&#9884;</div>
+            </div>
+            <div class="col">&#9884;</div>
+        </div>
+
+         <div class="info">
+            <div class="info__inner">
                 <h2>Need specific column widths?</h2>
-                <p>Flex is also ready for that, use flex-basis property with the shorthand :<br /><small>(flex-grow needs to be forced to 0)</small></p>
+                <p>Flex is also ready for that, use <code>flex-basis</code> property with the shorthand :<br /><small>(<code>flex-grow</code> needs to be forced to <code>0</code>)</small></p>
                 <pre><code>flex: 0 [WIDTH];
 flex: 0 15%;
 flex: 0 400px;</code></pre>
