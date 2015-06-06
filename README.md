@@ -1,6 +1,6 @@
 ![ungrid logo](../gh-pages/favicon.png "ungrid logo")
 
-# ungrid [![npm version](//badge.fury.io/js/ungrid.svg)](//badge.fury.io/js/ungrid.svg) [![Bower version](//badge.fury.io/bo/ungrid.svg)](//badge.fury.io/bo/ungrid)
+# ungrid ![npm version](//badge.fury.io/js/ungrid.svg) ![Bower version](//badge.fury.io/bo/ungrid.svg)
 
 the simplest responsive css grid
 
