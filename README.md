@@ -1,6 +1,6 @@
 ![ungrid logo](../gh-pages/favicon.png "ungrid logo")
 
-# ungrid [![Bower version](https://badge.fury.io/bo/ungrid.svg)](http://badge.fury.io/bo/ungrid)
+# ungrid [![npm version](//badge.fury.io/js/ungrid.svg)](//badge.fury.io/js/ungrid.svg) [![Bower version](//badge.fury.io/bo/ungrid.svg)](//badge.fury.io/bo/ungrid)
 
 the simplest responsive css grid
 
@@ -21,7 +21,9 @@ __ungrid__ is a tiny, responsive, table-based CSS grid system. The entire `ungri
 
 ## Get started
 
-Install with [Bower](http://bower.io) `bower install ungrid` or just copy and paste the contents of ungrid.min.css into your CSS file.
+- Install with [npm](//www.npmjs.com/package/ungrid) `npm install ungrid`
+- Install with [Bower](//bower.io) `bower install ungrid`
+- Or just copy and paste the contents of ungrid.min.css into your CSS file.
 
 
 
@@ -47,7 +49,7 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2015 Chris Nager
+Copyright (c) 2014-2015 [Chris Nager](//twitter.com/chrisnager)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
