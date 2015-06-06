@@ -1,96 +1,96 @@
-html {
-    font: 24px/1.7 "Helvetica Neue", sans-serif;
-    text-align: center;
-    color: #222
-}
-
-body {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: teal;
-}
-
-h1 {
-    letter-spacing: -0.05em;
-}
-
-h2 {
-    font-size: 0.83333em;
-}
-
-p {
-    font-size: 0.7em;
-}
-
-pre {
-    border: 2px solid;
-    padding: 1em;
-    white-space: pre-wrap;
-    font-size: 0.54167em;
-    text-align: left;
-    background-color: #fff;
-}
-
-.info__inner > p > code {
-    padding: 0.25em;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-}
-
-hr {
-    max-width: 20em;
-    margin: 2em auto;
-    border: solid #ddd;
-    border-width: 1px 0 0;
-}
-
-.header {
-    padding: 3em 1em;
-}
-
-.header > h1,
-.header > p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.info {
-    padding: 2em 1em;
-    overflow: hidden;
-    background-color: #f2f2f2;
-}
-
-.info__inner {
-    max-width: 30em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-@media (max-width: 479px) {
-    .col {
-        width: 100% !important;
-    }
-}
-
-.col {
-    height: 4em;
-    vertical-align: middle;
-    line-height: 4em;
-    background-color: teal;
-}
-
-.col:nth-of-type(2n) {
-    background-color: #95cbcb;
-}
-
-.footer {
-    padding: 0.5rem 1rem 1.5em;
-}
+html {                                                                          
+    font: 24px/1.7 "Helvetica Neue", sans-serif;                                
+    text-align: center;                                                         
+    color: #222;                                                                
+}                                                                               
+                                                                                
+body {                                                                          
+    margin: 0;                                                                  
+}                                                                               
+                                                                                
+a {                                                                             
+    text-decoration: none;                                                      
+    color: teal;                                                                
+}                                                                               
+                                                                                
+h1 {                                                                            
+    letter-spacing: -0.05em;                                                    
+}                                                                               
+                                                                                
+h2 {                                                                            
+    font-size: 0.83333em;                                                       
+}                                                                               
+                                                                                
+p {                                                                             
+    font-size: 0.7em;                                                           
+}                                                                               
+                                                                                
+pre {                                                                           
+    border: 2px solid;                                                          
+    padding: 1em;                                                               
+    white-space: pre-wrap;                                                      
+    font-size: 0.54167em;                                                       
+    text-align: left;                                                           
+    background-color: #fff;                                                     
+}                                                                               
+                                                                                
+.info__inner > p > code {                                                       
+    padding: 0.25em;                                                            
+    border-radius: 4px;                                                         
+    border: 1px solid #bbb;                                                     
+}                                                                               
+                                                                                
+hr {                                                                            
+    max-width: 20em;                                                            
+    margin: 2em auto;                                                           
+    border: solid #ddd;                                                         
+    border-width: 1px 0 0;                                                      
+}                                                                               
+                                                                                
+.header {                                                                       
+    padding: 3em 1em;                                                           
+}                                                                               
+                                                                                
+.header > h1,                                                                   
+.header > p {                                                                   
+    margin-top: 0;                                                              
+    margin-bottom: 0;                                                           
+}                                                                               
+                                                                                
+.info {                                                                         
+    padding: 2em 1em;                                                           
+    overflow: hidden;                                                           
+    background-color: #f2f2f2;                                                  
+}                                                                               
+                                                                                
+.info__inner {                                                                  
+    max-width: 30em;                                                            
+    margin-right: auto;                                                         
+    margin-left: auto;                                                          
+}                                                                               
+                                                                                
+.row {                                                                          
+    margin-top: 1em;                                                            
+    margin-bottom: 1em;                                                         
+}                                                                               
+                                                                                
+@media (max-width: 479px) {                                                     
+    .col {                                                                      
+        width: 100% !important;                                                 
+    }                                                                           
+}                                                                               
+                                                                                
+.col {                                                                          
+    height: 4em;                                                                
+    vertical-align: middle;                                                     
+    line-height: 4em;                                                           
+    background-color: teal;                                                     
+}                                                                               
+                                                                                
+.col:nth-of-type(2n) {                                                          
+    background-color: #95cbcb;                                                  
+}                                                                               
+                                                                                
+.footer {                                                                       
+    padding: 0.5rem 1rem 1.5em;                                                 
+}                                                                               
