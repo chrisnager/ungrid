@@ -1,6 +1,6 @@
 ![ungrid logo](../gh-pages/favicon.png "ungrid logo")
 
-# ungrid [![Bower version](https://badge.fury.io/bo/ungrid.svg)](http://badge.fury.io/bo/ungrid)
+# ungrid [![npm version](https://badge.fury.io/js/ungrid.svg)](http://badge.fury.io/js/ungrid) [![Bower version](https://badge.fury.io/bo/ungrid.svg)](http://badge.fury.io/bo/ungrid)
 
 the simplest responsive css grid
 
@@ -30,7 +30,9 @@ The flex flavored version `ungrid-flex.css` is 76 bytes minified (142 bytes with
 
 ## Get started
 
-Install with [Bower](http://bower.io) `bower install ungrid` or just copy and paste the contents of ungrid.min.css into your CSS file.
+- Install with [npm](//www.npmjs.com/package/ungrid) `npm install ungrid`
+- Install with [Bower](//bower.io) `bower install ungrid`
+- Or just copy and paste the contents of ungrid.min.css into your CSS file.
 
 
 
@@ -52,11 +54,18 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 
 
 
+## Helpful resources
+
+- [Nested rows with ungrid](//codepen.io/chrisnager/pen/EeJqH) (addresses [issue #1](//github.com/chrisnager/ungrid/issues/1)).
+- [Gutters with ungrid](//codepen.io/chrisnager/pen/arKBu) (addresses [issue #2](//github.com/chrisnager/ungrid/issues/2)).
+
+
+
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2015 Chris Nager
+Copyright (c) 2014-2015 [Chris Nager](//twitter.com/chrisnager)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
