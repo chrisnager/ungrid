@@ -50,6 +50,7 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 - [Nested rows with ungrid](//codepen.io/chrisnager/pen/EeJqH) (addresses [issue #1](//github.com/chrisnager/ungrid/issues/1)).
 - [Gutters with ungrid](//codepen.io/chrisnager/pen/arKBu) (addresses [issue #2](//github.com/chrisnager/ungrid/issues/2)).
 - [Offset columns with ungrid](//codepen.io/chrisnager/pen/QbqxJO) (addresses [issue #6](//github.com/chrisnager/ungrid/issues/6)).
+- [Flexbox flavor (ungrid-flex.css)](//codepen.io/chrisnager/pen/BNejRQ) (addresses [pull request #4](//github.com/chrisnager/ungrid/pull/4)).
 
 
 
