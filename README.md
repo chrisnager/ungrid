@@ -29,7 +29,7 @@ __ungrid__ is a tiny, responsive, table-based CSS grid system. The entire `ungri
 
 ## How to use
 
-To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](http://codepen.io/chrisnager/pen/ypokv).
+To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](//codepen.io/chrisnager/pen/ypokv).
 
 ```html
 <div class="row">
@@ -57,7 +57,7 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2015 [Chris Nager](//twitter.com/chrisnager)
+Copyright (c) 2014-2016 [Chris Nager](//twitter.com/chrisnager)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
