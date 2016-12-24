@@ -29,7 +29,7 @@ __ungrid__ is a tiny, responsive, table-based CSS grid system. The entire `ungri
 
 ## How to use
 
-To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](//codepen.io/chrisnager/pen/ypokv).
+To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s will automatically be evenly spaced. This allows you to roll your own simple grids. [See it in action](//codepen.io/chrisnager/pen/ypokv?editors=1100).
 
 ```html
 <div class="row">
@@ -50,6 +50,7 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 - [Nested rows with ungrid](//codepen.io/chrisnager/pen/EeJqH) (addresses [issue #1](//github.com/chrisnager/ungrid/issues/1)).
 - [Gutters with ungrid](//codepen.io/chrisnager/pen/arKBu) (addresses [issue #2](//github.com/chrisnager/ungrid/issues/2)).
 - [Offset columns with ungrid](//codepen.io/chrisnager/pen/QbqxJO) (addresses [issue #6](//github.com/chrisnager/ungrid/issues/6)).
+- [Use ungrid with React](//codepen.io/chrisnager/pen/oYRzPz) (addresses [issue #13](//github.com/chrisnager/ungrid/issues/13)).
 - [Flexbox flavor (ungrid-flex.css)](//codepen.io/chrisnager/pen/BNejRQ) (addresses [pull request #4](//github.com/chrisnager/ungrid/pull/4)).
 
 
