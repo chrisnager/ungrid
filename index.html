@@ -1,172 +1,49 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=640">
-        <title>ungrid - the simplest responsive css grid</title>
-        <link href="ungrid.min.css" rel="stylesheet">
-        <link href="docs.css" rel="stylesheet">
-    </head>
-    <body>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title></title><style>*{box-sizing:border-box}.cxs-display-table{display:table}.cxs-183745076 p{overflow-x:auto;margin-top:0px;margin-bottom:16px}.cxs-424651569{font-size:20px}.cxs-857983649 a:hover{text-decoration:underline}.cxs-4066908388{clear:both}.cxs-2262331773{font-size:20px}.cxs-1246195080{margin-left:-8px;margin-right:-8px}.cxs-3057891252{font-size:14px}.cxs-3057891252 h1{font-size:inherit;margin-top:32px}.cxs-3057891252 h1:before{content:"# ";color:#888}.cxs-3057891252 h2{font-size:inherit;margin-top:32px}.cxs-3057891252 h2:before{content:"## ";color:#888}.cxs-3057891252 h3{font-size:inherit}.cxs-3057891252 h3:before{content:"### ";color:#888}.cxs-3057891252 h4{font-size:16px}.cxs-3057891252 h5{font-size:14px}.cxs-3057891252 h6{font-size:12px}.cxs-3057891252 p{overflow-x:auto}.cxs-3057891252 code{font-family:inherit;font-size:inherit;overflow-x:auto;color:#666}.cxs-3057891252 code:before{content:"`"}.cxs-3057891252 code:after{content:"`"}.cxs-3057891252 pre{font-family:inherit;font-size:inherit;overflow-x:auto;color:#666}.cxs-3057891252 pre:before{content:"```";display:block}.cxs-3057891252 pre:after{content:"```";display:block}.cxs-3057891252 pre .hljs-keyword{color:#666}.cxs-3057891252 pre .hljs-built_in{color:#888}.cxs-3057891252 pre .hljs-type{color:#888}.cxs-3057891252 pre .hljs-literal{color:#666}.cxs-3057891252 pre .hljs-number{color:#1f80ff}.cxs-3057891252 pre .hljs-regexp{color:#666}.cxs-3057891252 pre .hljs-string{color:#888}.cxs-3057891252 pre .hljs-subst{color:#888}.cxs-3057891252 pre .hljs-symbol{color:#666}.cxs-3057891252 pre .hljs-class{color:#666}.cxs-3057891252 pre .hljs-function{color:#1f80ff}.cxs-3057891252 pre .hljs-title{color:#666}.cxs-3057891252 pre .hljs-params{color:#888}.cxs-3057891252 pre .hljs-comment{color:#888}.cxs-3057891252 pre .hljs-doctag{color:#888}.cxs-3057891252 pre .hljs-meta{color:#888}.cxs-3057891252 pre .hljs-meta-keyword{color:#666}.cxs-3057891252 pre .hljs-meta-string{color:#666}.cxs-3057891252 hr{margin-top:48px;margin-bottom:48px;border:0px;border-bottom-style:solid;border-bottom-width:1px}.cxs-3057891252 table{border-collapse:separate;border-spacing:0px;max-width:100%;width:100%}.cxs-3057891252 th{text-align:left;line-height:inherit;vertical-align:bottom}.cxs-3057891252 td{vertical-align:top;line-height:inherit}.cxs-3057891252 img{max-width: 100%;height: auto;margin-top:16px;margin-bottom:16px}.cxs-3057891252 a{color:inherit}.cxs-3057891252 ul{list-style-type:none;padding-left:0px}.cxs-3057891252 li{}.cxs-3057891252 li:before{content:"- "}.cxs-3057891252 b{}.cxs-3057891252 b:before{content:"*"}.cxs-3057891252 b:after{content:"*"}.cxs-3057891252 pre code{}.cxs-3057891252 pre code:before{content:none}.cxs-3057891252 pre code:after{content:none}.cxs-799160745{font-size:48px}.cxs-857983649 a{color:#05a}.cxs-3954183383{font-size:24px}.cxs-857983649 img{max-width: 100%;height: auto;margin-top:16px;margin-bottom:16px}.cxs-183745076{}.cxs-183745076 h1{font-weight:500;letter-spacing:-0.01em;font-size:48px;margin-top:32px;margin-bottom:8px}.cxs-183745076 h2{font-weight:500;letter-spacing:-0.01em;font-size:24px;margin-top:32px;margin-bottom:8px}.cxs-183745076 h3{font-weight:500;letter-spacing:-0.01em;font-size:20px;margin-top:32px;margin-bottom:8px}.cxs-183745076 h4{font-weight:500;letter-spacing:-0.01em;font-size:16px;margin-top:32px;margin-bottom:8px}.cxs-183745076 h5{font-weight:500;letter-spacing:-0.01em;font-size:14px;margin-top:32px;margin-bottom:8px}.cxs-183745076 h6{font-weight:500;letter-spacing:-0.01em;font-size:12px;margin-top:32px;margin-bottom:8px}.cxs-857983649 td{vertical-align:top;line-height:inherit}.cxs-183745076 code{font-family:Menlo, monospace;font-size:14px;padding:4px;background-color:#f5f5f5;border-radius:2px}.cxs-183745076 pre{font-family:Menlo, monospace;font-size:14px;overflow-x:auto;padding:16px;margin-top:8px;margin-bottom:32px;background-color:#f5f5f5;border-radius:2px}.cxs-183745076 pre .hljs-keyword{color:#2196f3}.cxs-183745076 pre .hljs-built_in{color:#1565c0}.cxs-183745076 pre .hljs-type{color:#1565c0}.cxs-183745076 pre .hljs-literal{color:#2196f3}.cxs-183745076 pre .hljs-number{color:#ff4081}.cxs-183745076 pre .hljs-regexp{color:#2196f3}.cxs-183745076 pre .hljs-string{color:#1565c0}.cxs-183745076 pre .hljs-subst{color:#1565c0}.cxs-183745076 pre .hljs-symbol{color:#2196f3}.cxs-183745076 pre .hljs-class{color:#2196f3}.cxs-183745076 pre .hljs-function{color:#ff4081}.cxs-183745076 pre .hljs-title{color:#2196f3}.cxs-183745076 pre .hljs-params{color:#1565c0}.cxs-183745076 pre .hljs-comment{color:#1565c0}.cxs-183745076 pre .hljs-doctag{color:#1565c0}.cxs-183745076 pre .hljs-meta{color:#1565c0}.cxs-183745076 pre .hljs-meta-keyword{color:#2196f3}.cxs-183745076 pre .hljs-meta-string{color:#2196f3}.cxs-183745076 hr{margin-top:48px;margin-bottom:48px;border:0px;border-bottom-style:solid;border-bottom-width:1px;border-bottom:2px solid #e0e0e0}.cxs-183745076 table{border-collapse:separate;border-spacing:0px;max-width:100%;width:100%}.cxs-183745076 th{text-align:left;line-height:inherit;vertical-align:bottom}.cxs-183745076 td{vertical-align:top;line-height:inherit}.cxs-183745076 img{max-width: 100%;height: auto;margin-top:16px;margin-bottom:16px}.cxs-183745076 a{color:#2196f3;text-decoration: none}.cxs-183745076 a:hover{text-decoration:underline}.cxs-183745076 ul{padding-left:32px;margin-top:0px;margin-bottom:16px}.cxs-857983649{}.cxs-857983649 h1{font-weight:700;letter-spacing:-0.01em;font-size:24px;margin-top:48px;margin-bottom:48px;border-bottom-width:4px;border-bottom-style:solid}.cxs-857983649 th{text-align:left;line-height:inherit;vertical-align:bottom}.cxs-857983649 h2{font-weight:700;letter-spacing:-0.01em;font-size:24px;margin-top:48px;margin-bottom:48px;border-bottom-width:4px;border-bottom-style:solid}.cxs-857983649 table{border-collapse:separate;border-spacing:0px;max-width:100%;width:100%}.cxs-857983649 h3{font-weight:700;letter-spacing:-0.01em;font-size:20px;margin-top:48px;margin-bottom:48px;border-bottom-width:2px;border-bottom-style:solid}.cxs-857983649 hr{margin-top:48px;margin-bottom:48px;border:0px;border-bottom:2px solid}.cxs-857983649 h4{font-weight:700;letter-spacing:-0.01em;font-size:20px;margin-top:32px;margin-bottom:8px}.cxs-857983649 h5{font-weight:700;letter-spacing:-0.01em;font-size:20px;margin-top:32px;margin-bottom:8px}.cxs-857983649 h6{font-weight:700;letter-spacing:-0.01em;font-size:20px;margin-top:32px;margin-bottom:8px}.cxs-857983649 p{overflow-x:auto;max-width:40em;margin-top:0px;margin-bottom:16px}.cxs-857983649 code{font-family:Menlo, monospace;font-size:14px;color:#05a}.cxs-857983649 pre{font-family:Menlo, monospace;font-size:14px;overflow-x:auto;padding-top:16px;padding-bottom:16px;margin-top:32px;margin-bottom:32px;border-top:1px solid;border-bottom:1px solid}.cxs-857983649 pre .hljs-keyword{color:#05a}.cxs-857983649 pre .hljs-built_in{color:#444}.cxs-857983649 pre .hljs-type{color:#444}.cxs-857983649 pre .hljs-literal{color:#05a}.cxs-857983649 pre .hljs-number{color:#f30}.cxs-857983649 pre .hljs-regexp{color:#05a}.cxs-857983649 pre .hljs-string{color:#444}.cxs-857983649 pre .hljs-subst{color:#444}.cxs-857983649 pre .hljs-symbol{color:#05a}.cxs-857983649 pre .hljs-class{color:#05a}.cxs-857983649 pre .hljs-function{color:#f30}.cxs-857983649 pre .hljs-title{color:#05a}.cxs-857983649 pre .hljs-params{color:#444}.cxs-857983649 pre .hljs-comment{color:#444}.cxs-857983649 pre .hljs-doctag{color:#444}.cxs-857983649 pre .hljs-meta{color:#444}.cxs-857983649 pre .hljs-meta-keyword{color:#05a}.cxs-857983649 pre .hljs-meta-string{color:#05a}.cxs-857983649 ul{list-style:square inside;padding-left:0px;margin-top:0px;margin-bottom:32px}@media screen and (min-width:52em) { .cxs-857983649 h3{font-size:24px} }@media screen and (min-width:52em) { .cxs-857983649 h2{font-size:48px} }@media screen and (min-width:52em) { .cxs-857983649 h1{font-size:48px} }@media screen and (min-width: 52em) { .cxs-2262331773{font-size:32px} }@media screen and (min-width: 52em) { .cxs-3954183383{} }@media screen and (min-width: 52em) { .cxs-799160745{font-size:72px} }@media screen and (min-width: 52em) { .cxs-424651569{} }</style></head><body style="margin:0;"><div class="Xv" style="font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-weight:400;line-height:1.5;color:#000;background-color:#fff;"><nav style="display:flex;align-items:center;padding-top:8px;padding-bottom:8px;padding-left:16px;padding-right:16px;background-color:#fff;"><a href="http://chrisnager.github.io/ungrid" class="Link" style="box-sizing:border-box;color:inherit;display:inline-block;font-size:14px;line-height:16px;padding-left:16px;padding-right:16px;padding-top:16px;padding-bottom:16px;font-weight:600;text-decoration:none;">Home</a><a href="https://github.com/chrisnager/ungrid" class="Link" style="box-sizing:border-box;color:inherit;display:inline-block;font-size:14px;line-height:16px;padding-left:16px;padding-right:16px;padding-top:16px;padding-bottom:16px;font-weight:600;text-decoration:none;">GitHub</a></nav><header style="text-align:left;"><div style="box-sizing:border-box;padding-top:48px;padding-bottom:48px;padding-left:32px;padding-right:32px;"><h1 class="cxs-799160745" style="box-sizing:border-box;font-weight:700;letter-spacing:-0.01em;margin:0;border-bottom-width:4px;border-bottom-style:solid;margin-bottom:16px;">ungrid</h1><h2 class="cxs-3954183383" style="box-sizing:border-box;font-weight:700;letter-spacing:-0.01em;margin:0;">ungrid - the simplest responsive css grid</h2><div class="cxs-1246195080" style="box-sizing:border-box;padding-top:16px;padding-bottom:16px;"><iframe src="https://platform.twitter.com/widgets/tweet_button.html?text=ungrid%3A%20ungrid%20-%20the%20simplest%20responsive%20css%20grid&amp;url=http%3A%2F%2Fchrisnager.github.io%2Fungrid&amp;via=&amp;hashtags=&amp;size=" height="20" allowtransparency="true" frameborder="0" scrolling="no" style="box-sizing:border-box;width:61px;overflow:hidden;margin:8px;"></iframe><iframe src="https://ghbtns.com/github-btn.html?type=star&amp;count=true&amp;user=chrisnager&amp;repo=ungrid&amp;size=" height="20" frameborder="0" scrolling="no" style="box-sizing:border-box;width:100px;overflow:hidden;margin:8px;"></iframe><div class="cxs-4066908388 cxs-display-table"></div></div></div></header><div class="cxs-857983649" style="box-sizing:border-box;padding-top:32px;padding-bottom:32px;padding-left:32px;padding-right:32px;"><article style="box-sizing:border-box;"><div><p><img src="../gh-pages/favicon.png" /></p>
 
-        <div class="header">
-            <h1><a href="//github.com/chrisnager/ungrid">ungrid</a></h1>
-            <p>by <a href="//twitter.com/chrisnager">@chrisnager</a></p>
-            <h2>the simplest responsive css grid</h2>
-        </div>
-
-        <div class="info">
-            <div class="info__inner">
-                <p><b>ungrid</b> is a responsive, table-based CSS grid system. To use, simply put as many <code>.col</code>s as you wish in your <code>.row</code>s and the <code>.col</code>s will automatically be evenly spaced. This allows you to roll your own simple grids.</p>
-                <p><iframe src="//ghbtns.com/github-btn.html?user=chrisnager&amp;repo=ungrid&amp;type=watch&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="77px" height="30px"></iframe></p>
-                <hr>
-                <p>ungrid.css (97 bytes minified):</p>
-                <pre><code>@media (min-width: 30em) {
-    .row { width: 100%; display: table; table-layout: fixed; }
-    .col { display: table-cell; }
-}</code></pre>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-         <div class="info">
-            <div class="info__inner">
-                <h2>Need specific column widths?</h2>
-                <p>Go for it. Both fixed and percentage base widths work perfectly. You can even use them together. The remaining columns will take up the rest of the available space.</p>
-            </div>
-        </div>
-
-       <div class="row">
-            <div class="col" style="width:80%">80%</div>
-            <div class="col">&#9884;</div>
-        </div>
-
-       <div class="row">
-            <div class="col" style="width:40%">40%</div>
-            <div class="col" style="width:20%">20%</div>
-            <div class="col" style="width:40%">40%</div>
-        </div>
-
-        <div class="row">
-            <div class="col">&#9884;</div>
-            <div class="col" style="width:425px">425px</div>
-        </div>
-
-        <div class="row">
-            <div class="col" style="width:15%">15%</div>
-            <div class="col" style="width:200px">200px</div>
-            <div class="col">&#9884;</div>
-            <div class="col" style="width:25%">25%</div>
-        </div>
-
-        <div class="footer">
-            <p><b>ungrid</b> on <a href="//github.com/chrisnager/ungrid">github</a> &middot; crafted by <a href="//twitter.com/chrisnager">@chrisnager</a> &middot; try it out on <a href="//codepen.io/chrisnager/pen/ypokv">codepen</a></p>
-        </div>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-48485384-1', 'chrisnager.github.io');
-            ga('send', 'pageview');
-        </script>
-    </body>
-</html>
+<p>the simplest responsive css grid</p>
+<h2>What's this?</h2>
+<p><strong>ungrid</strong> is a tiny, responsive, table-based CSS grid system. The entire <code>ungrid.css</code> file is 97 bytes minified.</p>
+<pre>@<span class="hljs-keyword">media</span> (min-width: <span class="hljs-number">30em</span>) {
+    <span class="hljs-selector-class">.row</span> { <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>; <span class="hljs-attribute">display</span>: table; <span class="hljs-attribute">table-layout</span>: fixed; }
+    <span class="hljs-selector-class">.col</span> { <span class="hljs-attribute">display</span>: table-cell; }
+}</pre><h2>Get started</h2>
+<ul>
+<li>Install with <a href="//www.npmjs.com/package/ungrid">npm</a> <code>npm install ungrid</code></li>
+<li>Install with <a href="//bower.io">Bower</a> <code>bower install ungrid</code></li>
+<li>Or just copy and paste the contents of ungrid.min.css into your CSS file.</li>
+</ul>
+<h2>How to use</h2>
+<p>To use, simply put as many <code>.col</code>s as you wish in your <code>.row</code>s and the <code>.col</code>s will automatically be evenly spaced. This allows you to roll your own simple grids. <a href="//codepen.io/chrisnager/pen/ypokv?editors=1100">See it in action</a>.</p>
+<pre><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>⚜<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>⚜<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>⚜<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    …
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>⚜<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre><p><img src="../gh-pages/ungrid-screenshot.png" /></p>
+<h2>Helpful resources</h2>
+<ul>
+<li><a href="//codepen.io/chrisnager/pen/EeJqH">Nested rows with ungrid</a> (addresses <a href="//github.com/chrisnager/ungrid/issues/1">issue #1</a>).</li>
+<li><a href="//codepen.io/chrisnager/pen/arKBu">Gutters with ungrid</a> (addresses <a href="//github.com/chrisnager/ungrid/issues/2">issue #2</a>).</li>
+<li><a href="//codepen.io/chrisnager/pen/QbqxJO">Offset columns with ungrid</a> (addresses <a href="//github.com/chrisnager/ungrid/issues/6">issue #6</a>).</li>
+<li><a href="//codepen.io/chrisnager/pen/oYRzPz">Use ungrid with React</a> (addresses <a href="//github.com/chrisnager/ungrid/issues/13">issue #13</a>).</li>
+<li><a href="//codepen.io/chrisnager/pen/BNejRQ">Flexbox flavor (ungrid-flex.css)</a> (addresses <a href="//github.com/chrisnager/ungrid/pull/4">pull request #4</a>).</li>
+</ul>
+<h2>License</h2>
+<p>The MIT License (MIT)</p>
+<p>Copyright (c) 2014-2016 <a href="//twitter.com/chrisnager">Chris Nager</a></p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &quot;Software&quot;), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</div></article></div><footer><div style="box-sizing:border-box;margin-bottom:32px;padding-top:8px;padding-bottom:8px;padding-left:32px;padding-right:32px;"><div style="margin-left:-16px;margin-right:-16px;"><a href="https://github.com/chrisnager/ungrid" class="Link" style="box-sizing:border-box;color:inherit;display:inline-block;font-size:14px;line-height:16px;padding-left:16px;padding-right:16px;padding-top:16px;padding-bottom:16px;font-weight:600;text-decoration:none;">GitHub</a><a href="https://github.com/chrisnager" class="Link" style="box-sizing:border-box;color:inherit;display:inline-block;font-size:14px;line-height:16px;padding-left:16px;padding-right:16px;padding-top:16px;padding-bottom:16px;font-weight:600;text-decoration:none;">chrisnager</a></div><div></div></div></footer></div><div style="font-family:-apple-system, sans-serif;font-size:12px;font-weight:600;text-align:right;padding:24px;color:#333;background-color:#eee;"><a href="http://compositor.io" style="color:inherit;text-decoration:none;">Built with Compositor.io</a></div></body></html>
