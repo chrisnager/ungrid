@@ -43,10 +43,6 @@
         {
           "href": "https://github.com/chrisnager/ungrid",
           "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/ungrid",
-          "text": "npm"
         }
       ]
     },
@@ -65,8 +61,7 @@
           "user": "chrisnager",
           "repo": "ungrid"
         }
-      ],
-      "text": "v1.0.1"
+      ]
     },
     {
       "component": "article",
