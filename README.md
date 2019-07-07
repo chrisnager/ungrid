@@ -1,6 +1,6 @@
 ![ungrid logo](../gh-pages/favicon.png "ungrid logo")
 
-# ungrid [![npm version](https://badge.fury.io/js/ungrid.svg)](http://badge.fury.io/js/ungrid) [![Bower version](https://badge.fury.io/bo/ungrid.svg)](http://badge.fury.io/bo/ungrid)
+# ungrid [![Financial Contributors on Open Collective](https://opencollective.com/ungrid/all/badge.svg?label=financial+contributors)](https://opencollective.com/ungrid) [![npm version](https://badge.fury.io/js/ungrid.svg)](http://badge.fury.io/js/ungrid) [![Bower version](https://badge.fury.io/bo/ungrid.svg)](http://badge.fury.io/bo/ungrid)
 
 the simplest responsive css grid
 
@@ -54,6 +54,36 @@ To use, simply put as many `.col`s as you wish in your `.row`s and the `.col`s w
 - [Flexbox flavor (ungrid-flex.css)](//codepen.io/chrisnager/pen/BNejRQ) (addresses [pull request #4](//github.com/chrisnager/ungrid/pull/4)).
 
 
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/chrisnager/ungrid/graphs/contributors"><img src="https://opencollective.com/ungrid/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/ungrid/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/ungrid"><img src="https://opencollective.com/ungrid/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/ungrid/contribute)]
+
+<a href="https://opencollective.com/ungrid/organization/0/website"><img src="https://opencollective.com/ungrid/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/1/website"><img src="https://opencollective.com/ungrid/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/2/website"><img src="https://opencollective.com/ungrid/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/3/website"><img src="https://opencollective.com/ungrid/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/4/website"><img src="https://opencollective.com/ungrid/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/5/website"><img src="https://opencollective.com/ungrid/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/6/website"><img src="https://opencollective.com/ungrid/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/7/website"><img src="https://opencollective.com/ungrid/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/8/website"><img src="https://opencollective.com/ungrid/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/ungrid/organization/9/website"><img src="https://opencollective.com/ungrid/organization/9/avatar.svg"></a>
 
 ## License
 
