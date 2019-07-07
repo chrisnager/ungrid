@@ -4,7 +4,8 @@
   "description": "the simplest responsive css grid",
   "main": "ungrid.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "opencollective-postinstall || true"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/chrisnager/ungrid/issues"
   },
-  "homepage": "https://github.com/chrisnager/ungrid"
+  "homepage": "https://github.com/chrisnager/ungrid",
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/ungrid"
+  }
 }
